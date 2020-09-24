@@ -1,0 +1,108 @@
+@font-face{
+	font-family: MyFont;
+  	src: url(../Resources/Oswald-Light.ttf);
+}
+*{
+	font-size: 20;
+	
+}
+body{
+	background: url("../Resources/wiezowiec.jpg");
+	margin: 0px;
+	padding: 0px;
+	font-family: MyFont;
+
+}
+div.container{
+	position: relative;
+	display: flex;
+	
+}
+div.container-content{
+	position: relative;
+	display: flex;
+}
+div.nameSection{
+	box-sizing: border-box;
+	font-size: 45px;
+	width: 852px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 69px;
+	padding: 0px;
+	position: relative;
+	
+}
+.box{
+
+	box-sizing:border-box;
+	background-color:white;
+	margin: 34px;
+	margin-bottom: 20px;
+	height: 623px;
+	width: 232px;
+	bottom: 1px;
+	position: relative;
+	bottom: 10px;
+	align-content: end;
+	
+}
+
+.box:hover{
+	opacity: 0.90;
+	height:-100px;
+	transition: height 1s;
+
+}
+h1{
+	color:black;
+	font-size:64;
+}
+h1#white-ish{
+	color: rgb(229, 229, 229);
+}
+.box.lightBlueBox{
+	background-color: rgb(68, 189, 243);
+	height: 623px;
+
+
+}
+.box.greyBox{
+	background-color: rgb(72, 79, 82);
+	height: 480px;
+	
+
+}
+.box.greenBox{
+	background-color: rgb(51,181,173);
+	height: 393px;
+
+}
+.box#infoBox{
+	width: 852px;
+	height: 788px;
+	background-color: grey;
+	opacity: 0.3;
+}
+
+/*
+@media(min-width: 1200px){
+	#p1{
+		width: 80%;
+	}
+	#p2{
+		width:150px;
+		height:150px;
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	#p1{
+		width: 50%;
+	}
+	#p2{
+		width: 100px;
+		height: 100px;
+	}
+}
+*/
